@@ -20,7 +20,7 @@ if (mySpeed > speedLimit){
 // create two variables, one named alarmSet, the other openDoor
 // set them to a boolean value
 
-
+else if
 // using a conditional, determine if alarm is set. 
 // if alarm is set and door is set to open, print "Sound Alarm!" to the console
 // otherwise, print "Everything is fine." to the console.
