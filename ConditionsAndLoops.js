@@ -91,16 +91,25 @@ console.log(studentClass)
 
 
 
-
-
 // write a for loop that will iterate backwards from 10 to -10
-//25 min
+for (var i = 10; i >= -10; i --){
+    console.log(i);
+}
 
 
 // write a do/while loop that prints 1 through 50
-
+let iterator = 1;
+do {
+    console.log(iterator);
+    iterator++;
+} while(iterator <= 50);
 
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
+
+do {
+    console.log(iterator % 4);
+    iterator++;
+} while(iterator <= 50);
 
 
 // Someone messed up the following for loop
@@ -111,8 +120,13 @@ console.log(studentClass)
     } 
 */
 
+for(let i = 1; i < 10; i++){
+    console.log(i);
+}
 
-
+for(let i=11; i < 100; i++){
+    console.log(i);
+}
 
 
 
